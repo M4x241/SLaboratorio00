@@ -14,6 +14,7 @@ private:
 	int posicionY=12;
 	int velocidadX=1;
 	bool dash = false;
-	Estados Est_Actual = Sano;
+	bool enAire = false;
+	Estados Est_Actual = SANO;
 };
 
