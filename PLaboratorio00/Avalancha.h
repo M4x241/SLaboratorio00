@@ -2,7 +2,7 @@
 class Avalancha
 {
 public:
-	void deslizamiento();
+	void deslizamiento(int metro);
 private:
 	int posicionX = 1;
 	int posicionY = 12;

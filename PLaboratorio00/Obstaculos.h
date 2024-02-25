@@ -2,10 +2,11 @@
 class Obstaculos
 {
 public:
-	void impacto();
+	int impacto(int GorilaX, int GorilaY);
 
 private:
-	enum dureza{MADERA, PIEDRA, HIERRO };
+	enum dureza{MADERA, PIEDRA };
+	dureza tipoObjeto = MADERA;
+	int posicionX;
+	int posicionY;
 };
-//objetso
-//clases hijas, barriles, rocas, tuberia, tunel,

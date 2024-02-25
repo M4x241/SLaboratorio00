@@ -1,15 +1,12 @@
 #pragma once
-//QUE SE CAMBIE EL FONDO PORLOMENOS;
+
+enum escenario { MENU, JUNGLA, COPAS, PLAYA, CUEVA, RIO };
+
 class Escenarios
 {
 public:
-	void Esc_Menu();
-	void Esc_Jungla();
-	void Esc_Copas();
-	void Esc_Playa();
-	void Esc_Cueva();
-	void Esc_Rio();
+	void Nuevo_Escenario(int level);
 private:
-	enum escenario { MENU, JUNGLA, COPAS, PLAYA, CUEVA, RIO };
+	escenario esc_actual=MENU;
 };
 

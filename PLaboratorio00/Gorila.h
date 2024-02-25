@@ -8,6 +8,8 @@ public:
 	void movimiento();
 	void gravedad();
 	void salto();
+	int gorilaX();
+	int gorilaY();
 
 private:
 	int posicionX=15;

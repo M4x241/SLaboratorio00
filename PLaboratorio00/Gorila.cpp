@@ -22,3 +22,14 @@ void Gorila::salto()
 	enAire = true;
 	gravedad();
 }
+
+int Gorila::gorilaX()
+{
+	return posicionX;
+}
+
+int Gorila::gorilaY()
+{
+	return posicionY;
+}
+
